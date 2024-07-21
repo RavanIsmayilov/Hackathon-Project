@@ -1,0 +1,101 @@
+$font-stack: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$primary-color: #fff;
+$background-color: #0a0a23;
+$link-color: #4CAF50;
+$link-hover-color: #2e7d32;
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-top: 1px solid var(--light, #A7A6AB);
+
+    &-main{
+        display: flex;
+        align-items: flex-start;
+        gap: 117px;
+    }
+
+    .footer-container {
+        display: flex;
+        width: 1440px;
+        padding: 100px 80px;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .footer-section {
+        flex: 1;
+        padding: 0 1rem;
+
+        &-redirects{
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            align-self: stretch;
+        }
+
+        &-head{
+            color: var(--White, #FFF);
+            font-family: "poppins";
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 48px; 
+        }
+        
+        h3{
+            color: var(--White, #FFF);
+            font-family: Poppins;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; 
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+
+            li {
+                margin-bottom: 0.5rem;
+                margin-top: 10px;
+            }
+
+            a {
+                color: var(--White, #FFF);
+                font-feature-settings: 'clig' off, 'liga' off;
+                align-self: stretch;
+                font-family: Poppins;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 23px;
+                text-decoration: none;
+                transition: color 0.3s;
+                
+
+                &:hover {
+                    color: $link-hover-color;
+                }
+            }
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 24px;
+            margin-top: 100px;
+
+            .social-icon {
+                display: inline-block;
+                width: 24px;
+                height: 24px;
+
+                img {
+                    width: 28px;
+                    height: 28px;
+                }
+            }
+        }
+    }
+}

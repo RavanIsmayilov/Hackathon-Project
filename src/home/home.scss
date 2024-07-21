@@ -1,0 +1,71 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 80px;
+    background-color: #0d0d27;
+
+    &_content {
+        max-width: 50%;
+    }
+
+    h1 {
+        width: 626px;
+        color: var(--White, var(--White, #FFF));
+        font-family: Poppins;
+        font-size: 84px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 84px; 
+        letter-spacing: -0.72px;
+    }
+
+    p {
+        width: 656.6px;
+        color: #A7A6AB;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px; 
+        margin-bottom: 60px;
+    }
+
+    .btn {
+        display: flex;
+        width: 214px;
+        padding: 16px 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 36px;
+        background: var(--Linear, linear-gradient(299deg, #3777FF -7.7%, #1B3B84 97.12%));
+        text-decoration: none;
+        transition: background-color 5s ease;
+        color: var(--White, var(--White, #FFF));
+        text-align: center;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; 
+
+        &:hover {
+            transition: all 1s ease;
+            background: none;
+            border: 1px solid #3777FF;
+            color: #3777FF;
+            font-size: 22px;
+        }
+    }
+
+    &_image {
+        max-width: 50%;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}

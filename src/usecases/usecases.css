@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0d0d27;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.fraud-detection {
+  text-align: center;
+  padding: 20px;
+}
+.fraud-detection h1 {
+  align-self: stretch;
+  color: var(--White, #FFF);
+  font-family: Poppins;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: left;
+}
+.fraud-detection span {
+  align-self: stretch;
+  color: var(--light, #A7A6AB);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 140% */
+  text-align: left;
+}
+.fraud-detection-text {
+  display: flex;
+  width: 992px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 60px;
+  margin-bottom: 50px;
+}
+.fraud-detection .applications {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  width: 1700px;
+  padding: 10px 60px;
+}
+.fraud-detection .applications .application {
+  display: flex;
+  width: 405px;
+  padding: 55px;
+  align-items: flex-start;
+  gap: 32px;
+  border-radius: 16px;
+  border: 1px solid var(--Linear, #3777FF);
+}
+.fraud-detection .applications .application_text {
+  display: flex;
+  width: 295px;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+  text-align: left;
+}
+.fraud-detection .applications .application_text-link {
+  text-decoration: none;
+  color: var(--White, #FFF);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.fraud-detection .applications .application_text-link:hover {
+  text-decoration: underline;
+}
+.fraud-detection .applications .application img {
+  width: 46px;
+  height: 46px;
+  flex-shrink: 0;
+  margin-top: 21px;
+}
+.fraud-detection .applications .application:hover {
+  transform: translateY(-7px);
+  cursor: pointer;
+}
+.fraud-detection .applications .application h2 {
+  align-self: stretch;
+  color: var(--White, #FFF);
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.fraud-detection .applications .application p {
+  align-self: stretch;
+  color: var(--light, #A7A6AB);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}/*# sourceMappingURL=usecases.css.map */

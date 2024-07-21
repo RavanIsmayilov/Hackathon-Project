@@ -1,0 +1,196 @@
+$font-stack: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$primary-color: #000;
+$button-color: #007bff;
+$button-hover-color: #0056b3;
+
+
+.container {
+    display: flex;
+    width: 1300px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 112px;
+    padding: 120px 80px;
+
+    &_text{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 48px;
+        align-self: stretch;
+    }
+}
+
+h1 {
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 78px; 
+    align-self: stretch;
+}
+
+.description {
+    align-self: stretch;
+    color: #A7A6AB;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+
+.cta-button {
+    display: flex;
+    width: 214px;
+    height: 52px;
+    padding: 16px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 36px;
+    background: var(--Linear, linear-gradient(299deg, #3777FF -7.7%, #1B3B84 97.12%));
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+
+    }
+}
+
+$font-stack: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$primary-color: #000;
+$background-color: #f8f9fa;
+$section-background: #fff;
+$section-shadow: rgba(0, 0, 0, 0.1);
+$text-color: #fff;
+$list-icon-color: #4CAF50;
+
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+}
+
+.container2 {
+    display: flex;
+    width: 1280px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+
+    &_text{
+        width: 962px;
+        color: var(--White, #FFF);
+        font-family: Poppins;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 64px; /* 133.333% */
+    }
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 128px;
+    align-self: stretch;
+}
+
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+    align-self: stretch;
+    gap: 300px;
+
+
+    &_end{
+        width: 547px;
+        height: 517px;
+        border-radius: 20px;
+        margin-top: 140px;
+    }
+
+    &_text{
+        display: flex;
+        width: 616px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        display: flex;
+
+        &-img{
+            width: 32px;
+            height: 32px;
+        }
+
+        &-span{
+            align-self: stretch;
+            color: var(--light, #A7A6AB);
+            font-family: Poppins;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px; 
+        }
+    }
+
+    &_texts{
+        display: flex;
+        height: 83px;
+        align-items: flex-start;
+        gap: 24px;
+        align-self: stretch;
+    }
+
+    .text {
+        display: flex;
+        width: 672px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 53px;
+
+        &_title{
+            display: flex;
+            width: 672px;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 57px;
+
+            &-num{
+                align-self: stretch;
+                color: var(--Neutral-Dark-Midnight-Blue-Grey-200, #8E9198);
+                font-family: Poppins;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 52px; 
+            }
+    
+            &-head{
+                width: 547px;
+                flex-shrink: 0;
+                color: #FFF;
+                font-family: Poppins;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 64px; 
+                margin-left: 56px;
+            }
+        }
+    }
+}
